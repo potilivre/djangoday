@@ -1004,6 +1004,10 @@ th,td {
   margin: 0 auto;
 }
 
+.table-full-width {
+  width: 100%;
+}
+
 .table-bordered th,
 .table-bordered td {
   border: 1px solid #ddd !important;
