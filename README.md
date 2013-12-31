@@ -1,4 +1,4 @@
-pythonday
+djangoday
 =========
 
-Hotsite do Python Day Sergipe
+Repositório do Site do evento Django day em Natal/RN.
