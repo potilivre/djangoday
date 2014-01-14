@@ -1,292 +1,79 @@
-<!DOCTYPE HTML>
-<!--
-	Miniport 2.0 by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Dojo de Python da PotiLivre</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" />
-		<script src="js/jquery.min.js"></script>
-		<script src="js/config.js"></script>
-		<script src="js/skel.min.js"></script>
-	
-		<noscript>
-			<link rel="stylesheet" href="css/skel-noscript.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-desktop.css" />
-			<link rel="stylesheet" href="css/custom.css" />
-		</noscript>
-		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie9.css" /><![endif]-->
-		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
-		<!--[if lte IE 7]><link rel="stylesheet" href="css/ie7.css" /><![endif]-->
-	</head>
-	<body>
 
-		<!-- Nav -->
-		<nav id="nav">
-			<ul>
-				<li><a href="#top">Dojo de Python da PotiLivre</a></li>
-				<li><a href="#organizadores">Organizadores</a></li>
-				<li><a href="#programacao">Programação</a></li>
-				<li><a href="#patrocinadores">Patrocinadores</a></li>
-				<li><a href="#realizacao">Realização</a></li>
-				<li><a href="#inscricoes">Inscrições</a></li>
-				<li><a href="#local">Local</a></li>
-			</ul>
-		</nav>
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Djangoday : Site do evento Django day em Natal/RN, hospedado no Github Pages." />
 
-		<!-- Home -->
-		<div class="wrapper wrapper-style1 wrapper-first">
-			<article class="container" id="top">
-				<div class="row">
-					<div class="12u">
-						<span class="image image-centered"><img src="images/logo.png" alt="" /></span>
-					</div>
-				</div>
-				<div class="row">
-					<div class="12u action-call">	
-						<header>
-							<h2>Dois dias de Palestras e Dojos sobre uma das tecnologias que mais se destacam no mundo da computação, com uma abordagem divertida e estimulante.</h2>
-						</header>
-						<p>
-							30 de Novembro e 14 de Dezembro de 2013 <br>
-							das 9h00 às 12h00 &bull; <a href="#local">IFRN - Central</a>
-						</p>
-						<a target="_blank" href="https://docs.google.com/forms/d/1ASYLP_spbei2TVqagnS1QLL4-GvDbeRA7uayc4f2fwM/viewform" class="button button-big">
-							Faça sua inscrição
-						</a>
-					</div>
-				</div>					
-			</article>
-		</div>
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-		<!-- Palestrantes -->
-		<div class="wrapper wrapper-style2">
-			<article id="organizadores">
-				<header>
-					<h2>Organizadores</h2>
-				</header>
-				<div class="container">
-					<div class="row">
-						<div class="4u">
-							<section class="box box-style2">
-								<span class="image image-full">
-									<img src="images/ana_clara.png" alt="Ana Clara Nobre" >
-								</span>
-								<h3>Ana Clara Nobre</h3>
-								<p>
-									<a href="http://www.veezor.com/">Veezor</a>
-								</p>
-							</section>
-						</div>
-						<div class="4u">
-							<section class="box box-style2">
-								<span class="image image-full">
-									<img src="images/gabriela.png" alt="Gabriela Cavalcante" >
-								</span>
-								<h3>Gabriela Cavalcante</h3>
-								<p>
-									<a href="http://www.portal.ifrn.edu.br">IFRN</a>
-								</p>
-							</section>
-						</div>
-						<div class="4u">
-							<section class="box box-style2">
-								<span class="image image-full">
-									<img src="images/luan.png" alt="Luan Fonseca" >
-								</span>
-								<h3>Luan Fonseca</h3>
-								<p>
-									<a href="http://www.multmeio.com.br">Multmeio</a> / 
-									<a href="http://www.4softjr.com.br">4Soft</a>
-								</p>	
-							</section>
-						</div>
-					</div>
-					<div class="row">
-						<div class="-2u 4u">
-							<section class="box box-style2">
-								<span class="image image-full">
-									<img src="images/marcel.png" alt="Marcel Ribeiro Dantas" >
-								</span>
-								<h3>Marcel Ribeiro Dantas</h3>
-								<p>
-									<a href="http://www.lais.huol.ufrn.br">LAIS</a> /
-									<a href="http://www.http://fedoraproject.org/pt">Fedora Project</a>
-								</p>
-							</section>
-						</div>
-						<div class="4u">
-							<section class="box box-style2">
-								<span class="image image-full">
-									<img src="images/mayron.png" alt="Mayron Cachina" >
-								</span>
-								<h3>Mayron Cachina</h3>
-								<p>
-									<a href="http://www.saites.com.br">Saites</a>
-								</p>
-							</section>
-						</div>
-					</div>
-				</div>
-			</article>
-		</div>
+    <title>Djangoday</title>
+  </head>
 
-		<!-- Programação -->
-		<div class="wrapper wrapper-style3">
-			<article id="programacao">
-				<header>
-					<h2>Programação</h2>
-				</header>
-				<div class="container">
-					<div class="row">
-						<div class="6u">
-							<table class="table table-full-width">
-								<thead>
-									<tr>
-										<td colspan="2" class="action-call">
-											<strong>Dia 30/11</strong>
-										</td>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td><strong>09:00</strong></td>
-										<td>Recepção e Credenciamento</td>
-									</tr>
-									<tr>
-										<td><strong>09:30</strong></td>
-										<td>Palestra: Introdução ao Python</td>
-									</tr>
-									<tr>
-										<td><strong>10:00</strong></td>
-										<td>Dojo de Python</td>
-									</tr>
-									<tr>
-										<td><strong>12:00</strong></td>
-										<td>Encerramento</td>
-									</tr>
-								</tbody>	
-							</table>
-						</div>
-						<div class="6u">
-							<table class="table table-full-width">
-								<thead>
-									<tr>
-										<td colspan="2" class="action-call">
-											<strong>Dia 14/12</strong>
-										</td>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td><strong>09:00</strong></td>
-										<td>Recepção e Credenciamento</td>
-									</tr>
-									<tr>
-										<td><strong>09:30</strong></td>
-										<td>Palestra: Introdução ao PyGame</td>
-									</tr>
-									<tr>
-										<td><strong>10:00</strong></td>
-										<td>Dojo de Python com PyGame</td>
-									</tr>
-									<tr>
-										<td><strong>12:00</strong></td>
-										<td>Encerramento</td>
-									</tr>
-								</tbody>	
-							</table>
-						</div>
-					</div>
-			</article>
-		</div>
-	
-		<!-- Patrocinadores -->
-		<div class="wrapper wrapper-style3">
-			<article id="patrocinadores">
-				<header>
-					<h2>Patrocinadores</h2>
-				</header>					
-				<div class="row">
-					<div class="-2u 2u">
-						&nbsp;
-					</div>
-					<div class="4u">
-						<a href="http://pycursos.com"><img src="images/pycursos.png"></a>
-					</div>
-				</div>
-			</article>
-		</div>
+  <body>
 
-		<!-- Realização -->
-		<div class="wrapper wrapper-style3">
-			<article id="realizacao">
-				<header>
-					<h2>Realização</h2>
-				</header>					
-				<div class="row">
-					<div class="2u">
-						&nbsp;
-					</div>
-					<div class="4u">
-						<a href="http://facebook.com/groups/461954343836302/">
-							<img src="images/grupy-rn.png">
-						</a>
-					</div>
-					<div class="4u">
-						<a href="http://potilivre.org">
-							<img src="images/potilivre.png">
-						</a>
-					</div>
-					<div class="2u">
-						&nbsp;
-					</div>
-				</div>
-			</article>
-		</div>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/potilivre/djangoday">View on GitHub</a>
 
-		<!-- Insncrições -->
-		<div class="wrapper wrapper-style4">
-			<article id="inscricoes">
-				<header>
-					<h2>Garanta agora sua vaga no Dojo de Python da PotiLivre!</h2>
-					<span>Leve 1 KG de alimento e participe do sorteio de brindes como Livros e Cursos</span>
-					<a target="_blank" href="https://docs.google.com/forms/d/1ASYLP_spbei2TVqagnS1QLL4-GvDbeRA7uayc4f2fwM/viewform" class="button">
-						Inscrições Aqui.
-					</a>
-				</header>
-			</article>
-		</div>
+          <h1 id="project_title">Djangoday</h1>
+          <h2 id="project_tagline">Site do evento Django day em Natal/RN, hospedado no Github Pages.</h2>
 
-		<!-- Local -->
-		<div class="wrapper wrapper-style2">
-			<article id="local">
-				<header>
-					<h2>Local</h2>
-				</header>
-				<div class="container">
-					<div class="row">
-						<div class="12u">
-							<section class="box box-style2">
-								<h3>IFRN - Central</h3>
-								<p>Rua Dr. Nilo Bezerra Ramalho, 1692, Tirol - Natal RN</p>
-								<iframe src="http://mapsengine.google.com/map/embed?mid=zIzccO9E1iKQ.kYMLYsXFnB6k" width="1024" height="768"></iframe>
-							</section>								
-						</div>							
-					</div>
-				</div>
-				<footer>
-					<p id="copyright">
-						Design: <a href="http://html5up.net/">HTML5 UP</a> | Baseado no tema Miniport, por <a href="http://n33.co/">AJ</a> sob <a href="http://html5up.net/license/">licença CCA</a>.</p>
-					</p>
-				</footer>
-			</article>
-		</div>
-	</body>
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/potilivre/djangoday/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/potilivre/djangoday/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>
+<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+
+<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+
+<pre><code>$ cd your_repo_root/repo_name
+$ git fetch origin
+$ git checkout gh-pages
+</code></pre>
+
+<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+
+<h3>
+<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+
+<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+
+<h3>
+<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+
+<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+
+<h3>
+<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+
+<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+
+<h3>
+<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+
+<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Djangoday maintained by <a href="https://github.com/potilivre">potilivre</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
 </html>
